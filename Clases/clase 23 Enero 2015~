@@ -1,0 +1,6 @@
+comandos ejecutados por soriano:
+- jar tf prueba.jar
+- java -cp prueba.jar mi.paquete.holamundo.Hola
+
+
+No tocar el workspace ni ponerlo en la carpeta de entrega MUY IMPORTANTE

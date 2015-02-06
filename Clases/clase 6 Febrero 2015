@@ -1,0 +1,90 @@
+lista deriva de una secuencia, TODAS
+
+pon operaciones en secuencia??
+
+hay que hacer jerarquía antes
+
+¿que es una secuencia?
+ni es un array ni es una lista, es una secuencia
+ahora necesitamos manejarla
+después jerarquizamos
+
+secuencia s = new secuencia()
+y ahora seguimos
+
+lo que puedo hacer con un array lo puedo hacer con una secuencia PISTA
+
+for(int e: array){
+}
+o lo que es lo mismo
+for(int i=0;i<?;i++){
+    System.out.println(..s[i]);
+}
+
+tanto arrays como listas son secuencias
+ambas se recorren y tienen sus operaciones
+no hay que hacer imprimir como método, hay que hacer algo que sepa recorrerlo y te devuelva un string
+
+No puede ocurrir que secuencia no tenga algo que no tiene array
+
+puedes heredar de n cosas, pero sólo una de esa que heredas puede tener implementación, el resto han de ser interfaces
+
+(MIO) creo que una vez implementado array y list, podría ser secuencia ordenada = array; secuencia aleatoria = lista
+
+habra clases que no tienen nada mas que métodos, esas en java se llaman interfaces
+
+una secuenciaordenada y una secuenciaaleatoria son secuencias
+la ordenada tienes que indicar la posicion (o se inserta ordenadamente)
+la aleatoria no tiene menera de ordenar
+
+abstract class.... borras y pones interface; extends, implements
+
+todo lo que sea abstracto, son interfaces
+
+
+
+
+
+
+jerarquía
+
+Array
+de el derivan el ordenado y el aleatorio
+
+Lista
+de el derivan la ordenada y la aleatoria
+
+
+lo que hace que sea aleatoria es que te deja recuperar de manera aleatoria y el ordenado (random access)
+
+cabeceras secuencia (interfaz)
+    insertar
+    get
+
+secuencia ordenada hereda de secuencia
+    insertar(con y sin index)
+    get (con y sin index)
+
+secuencia aleatoria hereda de secuencia
+    insertar(sin index)
+    get(sin index)
+
+array hereda de secuencia
+    
+array ordenado hereda de secuencia ordenada
+array aleatorio hereda de secuencia aleatoria 
+
+
+
+
+
+
+
+puedes implementar array y lista (implements, no extends)
+secuencia es this
+
+quedara implementacion muy tontita en array y el list
+
+en ordenado y aleatorio redefinimos put y get
+    mucho
+
